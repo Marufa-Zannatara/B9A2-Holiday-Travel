@@ -3,6 +3,9 @@
     padding: 0;
 }
  
+.text-primary {
+    color: #FD6E0A;
+}
 
     .red-text{
     color: #F00;
@@ -12,17 +15,17 @@
 }
 
 .btn-primary{
-    background-color: rgb(249, 156, 4);
-    color: #FFF;
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-    text-decoration: none; 
-    cursor: pointer;
-    font-family:Mulish;
+   
+    border-radius: 5px;
+    border: 0;
+    color: white;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+    padding: 15px 35px;
+    font-family:Mulish;
+    cursor: pointer;
     margin-left:140px ;
     
 }
