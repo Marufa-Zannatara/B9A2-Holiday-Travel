@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+    .red-text{
+    color: #F00;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary{
+    background-color: rgb(249, 156, 4);
+    color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none; 
+    cursor: pointer;
+    font-family:Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left:140px ;
+    
+}
+
+.black-text{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:48px;
+    font-weight:700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+
+.cover {  
+    filter:contrast(110%) brightness(70%); 
+    background-image: url('../images/place1.png');
+    margin: 20px auto;
+    padding: 20px;
+    background-size: cover;
+    background-position: bottom center; 
+    width: 82.5%;
+    max-width: 1320px;
+    margin-bottom: 50px ;
+    
+}
+
+.cover h1{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    padding-top:50px;
+    font-weight: 400;
+    margin-bottom:35px;
+    
+}
+
+.input-field  div{
+    display: flex;
+    margin:0 140px;
+    gap: 16px;
+    align-items: center;
+}
+
+
+.cover p{
+color: #FFF;
+text-align: center;
+align-items: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+
+.newyear{
+    margin: 20px auto;
+    align-items: center;
+    width: 50%;
+    max-width: 800px;
+    margin-bottom: 50px ;
+}
+
+
+ .fifty-percent{
+
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+ }
+
+
+
+
+
+
+.best-price{
+    align-items: left;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 50%;
+    max-width: 1320px;
+    text-align: left;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.best-price h1{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:30px;
+    font-weight:700;
+    font-family: Mulish;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.best-price p{
+    color: #070211;
+    font-style: normal;
+    line-height: normal;
+    font-size:20px;
+    font-weight:400;
+    font-family: Mulish;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.best-price-container div {
+    display: flex;
+    max-width: 1340px ;
+    margin: 20px auto;
+
+}
+
+ 
+
+
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 100%;
+    max-width: 1600px;
+    
+}
+
+.foot-text{
+
+color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.foot-head{
+    display: flex;
+}
+
+
+@media screen and (max-width:600px)  {
+    .cover{
+        flex-direction: column;
+    }
+    
+    .cover div{
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+    .btn-primary{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer div{
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        margin: 10px ;
+    }
+}
+
