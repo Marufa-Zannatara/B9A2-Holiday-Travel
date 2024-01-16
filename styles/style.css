@@ -43,6 +43,37 @@
 }
 
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+
+
+
 .cover {  
     filter:contrast(110%) brightness(70%); 
     background-image: url('../images/place1.png');
@@ -91,11 +122,12 @@ margin-bottom: 30px;
 
 
 
- .best-price-container .best-price div {
+ .best-price-container {
     display: flex;
-    width: auto;
-    max-width: 1340px ;
-    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    gap: 10px;
 
 }
 
@@ -179,7 +211,7 @@ line-height: 26px;
         margin: auto;
     }
 
-    .best-price-container div{
+    .best-price-container{
 
         flex-direction: column;
         margin: 10px 20px;
@@ -216,6 +248,10 @@ line-height: 26px;
         align-items: center;
         gap: 10px;
         margin: 10px ;
+    }
+
+    nav{
+
     }
 
     }
