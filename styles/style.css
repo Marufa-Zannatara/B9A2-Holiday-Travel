@@ -207,6 +207,40 @@ margin-bottom: 30px;
  
 
 
+.forty-percent-Off{
+        /* animation properties */
+        animation-name: my-animation;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+        /* other properties */
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto;
+        margin-right: auto; 
+}
+      
+      @keyframes my-animation {
+        from {
+          background-color: #f5fd07;
+          width: 300px;
+          top: 10px;
+        }
+        to {
+          background-color: #5504f5;
+          width: 50px;
+          top: 100px;
+        }
+      }
+
+
+
 
 .footer{
     background: rgba(19, 19, 24, 0.05);
