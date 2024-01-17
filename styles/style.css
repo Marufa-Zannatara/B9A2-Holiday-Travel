@@ -170,7 +170,9 @@ margin-bottom: 30px;
 .best-price{
     align-items: left;
     border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
     width: 50%;
     max-width: 1320px;
     text-align: left;
@@ -286,8 +288,6 @@ line-height: 26px;
 
         flex-direction: column;
         margin: 10px 20px;
-        border-radius: 16px;
-        border: 1px solid rgba(251, 181, 99, 0.20);
         width: 100%;
         align-items: center;
         gap: 10px;
