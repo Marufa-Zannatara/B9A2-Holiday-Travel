@@ -206,6 +206,11 @@ margin-bottom: 30px;
 
  
 
+.forty-percent-Off{
+    text-align: center;
+    border:rgb(55, 4, 239) 5px solid ;
+    margin:5px 280px;
+}
 
 .forty-percent-Off{
         /* animation properties */
@@ -225,7 +230,6 @@ margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto; 
 }
-      
       @keyframes my-animation {
         from {
           background-color: #f5fd07;
@@ -238,7 +242,6 @@ margin-bottom: 30px;
           top: 100px;
         }
       }
-
 
 
 
